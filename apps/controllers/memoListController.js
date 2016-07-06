@@ -4,9 +4,6 @@ angular.module('memoApp').controller('memoListController', function($scope, $sta
         $scope.contents = data;
     });
 
-    $scope.foo = {};
-    $scope.bar = true;
-
     // 삭제 버튼 클릭 시 수행 - 서비스의 메소드를 호출한 결과 돌려받는 객체를 화면에 보여주도록 한다.
     $scope.deleteMemo = function(memoInfo){
         if(confirm('삭제 시 복구할 수 없습니다. 계속하시겠습니까?')) {

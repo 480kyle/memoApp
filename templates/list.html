@@ -2,15 +2,6 @@
   <span class="btn btn-success form-control" ui-sref="write">새 메모 작성</span>
   <hr class="hr5">
 
-  <div ng-if="bar">
-      <input type="text" ng-model="foo.text">
-  </div>
-
-  <div>{{foo.text}}</div>
-
-
-
-
   <table class="table table-bordered table-hover">
     <thead>
       <tr>
@@ -21,8 +12,7 @@
     </thead>
 
     <tbody>
-      <tr ng-repeat="content in contents" ng-class="{red:$odd}">
-        <td>{{$odd}}<input type="text" ng-model="foo.text"></td>
+      <tr ng-repeat="content in contents">
         <td>{{content.k}}</td>
         <td class="content"><a ui-sref="view({memoId: content.k})">{{content.v}}</a></td>
         <td>
