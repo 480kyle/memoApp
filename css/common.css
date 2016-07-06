@@ -1,0 +1,14 @@
+.container { width: 400px; }
+.btnCallWriteMemo { margin-bottom: 10px; }
+.num { width: 50px; }
+.content { max-width: 230px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.management { width: 100px; }
+
+textarea { resize: none; height: 200px !important; }
+
+.hr5 { margin: 5px 0 5px 0; }
+
+.btn-group-wrap { text-align: center; }
+div.btn-group { margin: 0 auto; text-align: center; width: inherit; display: inline-block; }
+
+.clearLocalStorage { margin-top: 20px; }
